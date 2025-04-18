@@ -3,7 +3,7 @@
 # Export the correct path for pnpm and pm2
 export PATH=$PATH:/home/ubuntu/.local/share/pnpm:/home/ubuntu/.npm-global/bin
 
-cd /home/ubuntu/react1
+cd /home/ubuntu/react2
 
 # Pull the latest code
 git pull origin main
@@ -15,4 +15,4 @@ pnpm install
 pnpm run build
 
 # Restart with PM2
-pm2 restart react1
+pm2 restart react2
